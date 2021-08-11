@@ -1,0 +1,62 @@
+import java.awt.Color; 
+public class PennDrawProject {    
+    public static void main(String[] args){
+       for (int i = 0; i < 2; i++){
+           int R = (int)(Math.random()*256);
+            int G = (int)(Math.random()*256);
+            int B= (int)(Math.random()*256);
+           int R2 = (int)(Math.random()*256);
+            int G2 = (int)(Math.random()*256);
+            int B2= (int)(Math.random()*256);
+          int R3 = (int)(Math.random()*256);
+            int G3 = (int)(Math.random()*256);
+            int B3= (int)(Math.random()*256);
+           int R4 = (int)(Math.random()*256);
+            int G4 = (int)(Math.random()*256);
+            int B4 = (int)(Math.random()*256);
+           int R5 = (int)(Math.random()*256);
+            int G5 = (int)(Math.random()*256);
+            int B5 = (int)(Math.random()*256);
+           int R6 = (int)(Math.random()*256);
+            int G6 = (int)(Math.random()*256);
+            int B6 = (int)(Math.random()*256);
+            Color color = new Color(R, G, B);
+           Color color2 = new Color(R2, G2, B2);
+           Color color3 = new Color(R3, G3, B3);
+           Color color4 = new Color(R4,G4,B4);
+            Color color5 = new Color(R5,G5,B5);
+           Color color6 = new Color (R6,G6,B6);
+        PennDraw.clear(color6);
+        PennDraw.setPenColor(color);
+            PennDraw.filledRectangle(0.5, 0.8, 0.3, 0.055);
+        PennDraw.setPenColor(color2);
+           PennDraw.filledRectangle(0.5,0.6,0.3,0.15);
+           PennDraw.filledPolygon(0.2, 0.452, 0.8,0.452, 0.5, 0.2);
+        PennDraw.setPenColor(color3);
+           PennDraw.filledPolygon(0.1,0.36,0.9,0.36,0.5,0.73);
+        PennDraw.setPenColor(color2);
+           PennDraw.filledPolygon(0.31,0.359,0.69,0.359, 0.5, 0.55);
+        PennDraw.setPenColor(color6);
+           PennDraw.filledPolygon(0.2,0.452,0.31,0.359,0.1,0.1);
+           PennDraw.filledPolygon(0.2,0.45, 0.2,0.8, 0.1, 0.3 );
+           PennDraw.filledPolygon(0.1,0.359, 0.31,0.359,0.2,0.452);
+        PennDraw.setPenRadius(0.1);
+           PennDraw.setPenColor(color6);
+           PennDraw.filledRectangle(0.1,0.32, 0.1,0.1);
+           PennDraw.filledPolygon(0.8,0.452,0.91,0.359,0.7,0.1);
+           PennDraw.filledPolygon(0.69,0.359, 0.8, 0.359, 0.8, 0.453);
+        PennDraw.setPenColor(color4);
+           PennDraw.filledCircle(0.5, 0.63, 0.05);
+           PennDraw.filledCircle(0.35, 0.5, 0.05);
+           PennDraw.filledCircle(0.65, 0.5, 0.05);
+        PennDraw.setPenColor(color5);
+           PennDraw.filledRectangle(0.3, 0.8, 0.05, 0.04);
+           PennDraw.filledRectangle(0.7, 0.8, 0.05, 0.04);
+           PennDraw.filledCircle(0.48, 0.8,0.03);
+        PennDraw.setPenColor(color5);
+           PennDraw.filledPolygon(0.55,0.85,0.55,0.75,0.5,0.8);
+        
+      
+       }
+    }
+    }
